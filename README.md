@@ -1,16 +1,9 @@
 # m_menu
 
-A new Flutter project.
+Restoranlarda taomlarni buyurtma berish uchun dastur bu dastur yordamida buyurtma qilayotgan taomning masalliqlarining miqdorini  o'zingiz tanlashingiz mumkin
 
-## Getting Started
+<img width="193" alt="Снимок экрана 2021-11-07 в 12 23 00" src="https://user-images.githubusercontent.com/80413744/140636287-4f80d230-3c10-4e6e-a5d7-0449c02254cb.png">
 
-This project is a starting point for a Flutter application.
+<img width="200" alt="Снимок экрана 2021-11-07 в 12 25 42" src="https://user-images.githubusercontent.com/80413744/140636317-4892d208-3a1e-4d6c-b9fc-2c078f8e15e4.png">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="195" alt="Снимок экрана 2021-11-07 в 12 25 56" src="https://user-images.githubusercontent.com/80413744/140636332-a3546c71-565d-4218-8e98-b04459a7eec3.png">
