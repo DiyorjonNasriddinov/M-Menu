@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   void timer() {
     Timer(const Duration(seconds: 1), () {
-      // Navigator.pushReplacementNamed(context, Foods.id);
+      Navigator.pushReplacementNamed(context, Foods.id);
     });
   }
 
@@ -48,15 +48,13 @@ class _HomePageState extends State<HomePage> {
                 end: Alignment.topCenter,
               ),
             ),
-            child: Center(
-              child: Container(
-                child: const Text(
-                  'M-Menu',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 80,
-                  ),
+            child: const Center(
+              child: Text(
+                'M-Menu',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 80,
                 ),
               ),
             )),

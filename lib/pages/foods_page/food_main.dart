@@ -17,10 +17,20 @@ class _FoodMainState extends State<FoodMain> {
   ];
   @override
   Widget build(BuildContext context) {
-    Widget _change() {
+    Widget _change(Map info) {
       return Container(
-        color: Colors.black,
-      );
+          padding: const EdgeInsets.all(10),
+          decoration: BoxDecoration(
+            color: Colors.amber.shade400,
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(info.keys.first),
+              Text(info.values.first.toString()),
+            ],
+          ));
     }
 
     var displaySize = MediaQuery.of(context).size;
@@ -40,7 +50,7 @@ class _FoodMainState extends State<FoodMain> {
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: GridView.count(
                   crossAxisCount: 2,
-                  children: listChanges.map((e) => _change()).toList(),
+                  children: listChanges.map((e) => _change(e)).toList(),
                   childAspectRatio: 3.1,
                   mainAxisSpacing: 10,
                   crossAxisSpacing: 10,
